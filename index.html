@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Awesome Market</title>
+       <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.common.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.rtl.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.default.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.mobile.all.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>   
+        <script src="https://kendo.cdn.telerik.com/2019.1.220/js/kendo.all.min.js"> </script>
+        <link rel="stylesheet" href="css/styles.css">
+         <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">   
+
+  </head>
+  <body>
+      <main>
+  		  <header>
+          <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand">Awesome Market</a>	    
+    		    <div id="cart-container">
+    		      <div id="cart">
+    		        <i style="margin-right: 10px;" class="fa fa-shopping-cart cart1 openCloseCart" aria-hidden="true">cart</i>              
+                <i class="fas fa-trash-alt" id="emptyCart">Empty cart
+                </i>             
+    		      </div>
+  		      <span id="itemCount"></span>
+  		    </div>
+        </nav>
+         <span id="popupNotification"></span>
+  		  </header>
+
+  		  <div id="shoppingCart">
+  		    <div id="cartItemsContainer">
+  		      <h2>Items in your cart</h2>
+  		      <i class="fa fa-times-circle-o fa-3x openCloseCart" aria-hidden="true"></i>
+  		      <div id="cartItems"></div>
+  		      <span id="cartTotal"></span>
+  		  	</div>
+  		  </div>
+
+  		  <div id="products" class="row">
+           
+        </div>
+
+ 		
+		</main>
+  
+    <script src="js/functions.js"></script>
+
+  </body>
+</html>
